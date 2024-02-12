@@ -1,0 +1,9 @@
+.error{
+    position: absolute;
+    top: 200px;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: larger;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

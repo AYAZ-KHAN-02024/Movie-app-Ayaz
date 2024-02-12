@@ -1,0 +1,17 @@
+.search-container{
+    border:0px solid  rgb(10, 23, 45);
+    border-radius: 10px;
+    width: 20%;
+    background-color: rgb(10, 23, 45);
+    color: aliceblue;
+    font-weight: bold;
+    padding: 2px;
+    margin: 5px;
+    box-sizing: border-box;
+    position: relative;
+    left: 25px;
+
+}
+
+
+

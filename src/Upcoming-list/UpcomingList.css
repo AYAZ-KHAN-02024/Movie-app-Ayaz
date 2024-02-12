@@ -1,0 +1,12 @@
+.UpcomingList{
+    position: relative;
+    top: 90px;
+}
+
+@media (max-width:850px) {
+    .UpcomingList{
+        top: 70px;
+    }
+}
+
+/* left all css is same like popularcard */

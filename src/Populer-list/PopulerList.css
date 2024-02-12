@@ -1,0 +1,12 @@
+.PopulerList{
+    position: relative;
+    top: 90px;
+}
+
+
+/* left all css is same like popularcard */
+@media (max-width:850px) {
+    .PopulerList{
+        top: 70px;
+    }
+}

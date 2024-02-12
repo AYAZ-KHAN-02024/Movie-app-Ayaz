@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-shadow: 2px 3px 10px black;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+body{
+  background-color: black;
+  min-height: 100%;
+  color: aliceblue;
+  overscroll-behavior: none;
+}
+
+.NavLink{
+  text-decoration: none;
+  
+}
+
+button:active,a:active,.NavLink:active{
+  scale: .9;
+}

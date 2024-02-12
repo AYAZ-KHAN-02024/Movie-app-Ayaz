@@ -1,0 +1,124 @@
+.details-page .backdrop-img{
+    max-width:70vw;
+    border-radius: 20px;
+
+}
+
+
+
+.details-page{
+  position: relative;
+  top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.poster-details{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: row;
+     max-width: 80vw;
+     text-align: center;
+     margin-top: -311px;
+     
+
+    
+}
+.poster-details-text{
+    background-color: rgba(46, 47, 49, 0.849);
+    margin: 40px;
+    padding: 40px;
+    border-radius: 25px;
+    font-size: medium;
+    
+}
+
+.poster-img{
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 20px black;
+
+}
+
+.production-company{
+    max-width: 96vw;
+    margin-top:40px;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.company-logo{
+   
+    background-color: rgba(194, 187, 187, 0.548);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    font-weight: bold;
+  
+}
+.logo img{
+    max-width:35vw;
+}
+
+.geners-name{
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 10px;
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.title{
+    font-size:x-large;
+    font-weight: bolder;
+    color: rgb(191, 216, 255);
+}
+.overview{
+    color: rgb(203, 227, 117);
+}
+
+@media (max-width:850px) {
+    .poster-details-text{
+        font-size: small;
+        width: 95vw;
+        top: 2%;
+        margin-top: 2px;
+    }
+    .title{
+        font-size: large;
+    }
+    .poster-details{
+        flex-direction: column;
+    }
+    .poster-img{
+        width: 95vw;
+        margin-top: 311px;
+       
+    }
+
+    .production-company{
+       font-size: x-small;
+       
+       margin-top: 10px;
+      }
+
+      .details-page .backdrop-img{
+        display: none;
+      }
+      .details-page{
+        position: relative;
+        top: 70px;
+      }
+     
+}

@@ -1,0 +1,172 @@
+.PopularCard-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    width: fit-content;
+    margin: 10px;
+    
+}
+
+
+.PopularCards {
+    
+    width: 250px;
+    height: 350px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 4px 5px 110px rgb(51, 6, 25);
+    transition:height 1.5s;
+    
+
+}
+.PopularCards:hover{
+    scale: 1.1;
+    height:530px;
+    .popular-card-datails{
+        margin-top: 2px;
+    }
+
+}
+
+.popular-card-datails {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5px 5px 4px 5px;
+    margin-top: -180px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 1.5s;
+    
+   
+    
+}
+
+
+.PopularCards img{
+   
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 250px;
+    height: 350px;
+    position:relative;
+    z-index: 1;
+
+}
+
+
+
+.popular-card-datails h2{
+    margin: 3px;
+    text-shadow: 2px 4px 5px  rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.226);
+    -webkit-text-stroke: 1px rgb(5, 255, 80);
+    color: aliceblue;
+    border-radius: 10px;
+
+}
+.popular-card-datails h2{
+    margin: 3px;
+    text-shadow: 2px 4px 5px  rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.226);
+    -webkit-text-stroke: .5px rgb(0, 0, 0);
+    color: rgb(13, 255, 0);
+    border-radius: 10px;
+}
+.popular-card-datails h5{
+    margin: 3px;
+    text-shadow: 2px 4px 8px  rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.409);
+    color: rgb(251, 255, 253);
+    border-radius: 10px;
+} 
+.popular-card-datails h4{
+    margin: 3px;
+    text-shadow: 2px 4px 5px  rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.226);
+    -webkit-text-stroke: .5px rgb(0, 0, 0);
+    color: rgb(255, 15, 115);
+    border-radius: 10px;
+}
+
+.popular-card-datails h3{
+    margin: 3px;
+    text-shadow: 2px 4px 5px  rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.226);
+    -webkit-text-stroke: .5px rgb(0, 0, 0);
+    color: rgb(225, 255, 0);
+    border-radius: 10px;
+}
+
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    margin:5px 0px 0px 25px;
+}
+
+.icon i{
+    text-shadow: 4px 2px 20px rgb(143, 255, 216);
+    color: aqua;
+    margin-left: 15px;
+    
+}
+
+@media (max-width:850px) {
+   
+    
+    .PopularCards:hover{
+        scale: 1.1;
+        height:450px;
+        .popular-card-datails{
+            margin-top: 2px;
+        }
+    
+    }
+
+    .PopularCards{
+   
+        width: 250px;
+        height: 450px;
+        margin-top:10px;
+        border-radius: 10px;
+        border: 1px solid white;
+        box-shadow: 4px 5px 110px rgb(51, 6, 25);
+        
+        
+    
+    }
+
+    .PopularCards img{
+   
+        border-radius: 10px;
+        border: 1px solid rgb(255, 255, 255);
+        width: 250px;
+        height: 270px;
+        size: cover;
+        /* position:relative; */
+        z-index: 1;
+    
+    }
+    .popular-card-datails {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 5px;
+        margin-top: 0px;
+        box-sizing: border-box;
+        text-align: center;
+        transition: all 1.5s;}
+        
+       
+        
+
+    
+}

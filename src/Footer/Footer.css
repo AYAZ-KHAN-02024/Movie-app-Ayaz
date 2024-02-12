@@ -1,0 +1,71 @@
+.footer{
+    width: 100%;
+    margin-top:10%;
+   
+  }
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color:rgb(11, 2, 43) ;
+  }
+  .contact-details{
+  
+    color: rgb(126, 120, 120);
+    padding: 20px;
+    text-align: center;
+    
+  
+  }
+  
+  .feedback{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(11, 2, 43);
+    color: rgb(126, 120, 120);
+    padding: 20px;
+    text-align: center;
+  }
+ 
+  .feedback input{
+    border: none;
+    margin: 2px;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: rgb(55, 44, 74);
+    color: blanchedalmond;
+  }
+  .feedback textarea{
+    border: none;
+    margin: 2px;
+    border-radius: 5px;
+    padding: 4px;
+    height: 100px;
+    background-color: rgb(55, 44, 74);
+    color: blanchedalmond;
+    resize: none;
+  }
+  
+  .feedback button{
+    border: none;
+    margin: 2px;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: rgb(8, 73, 94);
+    color: blanchedalmond;
+    cursor: pointer;
+  
+  }
+  .feedback button:active{
+    scale: .9;
+  }
+  .feedback{
+    width: 100%;
+  }
+  
+  /* ==========footer-end===================================== */
+  
+  
+  

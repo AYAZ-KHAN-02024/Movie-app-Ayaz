@@ -1,0 +1,10 @@
+/*left all css , same like details.css */
+.Sdetails{
+    margin-top: 400px;
+}
+
+@media (max-width:850px) {
+    .Sdetails{
+        margin-top: 20px;
+    }
+}

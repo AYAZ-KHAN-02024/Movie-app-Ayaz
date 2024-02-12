@@ -1,0 +1,176 @@
+/* ==============Sign-up-start================== */
+.login-signup-display{
+    display: none;
+  }
+  .signup{
+    position: absolute;
+    top:80px;
+    height: 100%;
+    
+  
+  }
+  .signup{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    height:calc(100vh - 100px);
+    background-image: url('S2.png');
+    background-size: cover;
+  }
+  .signup-box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    flex-direction: column;
+    /* backdrop-filter: blur(9px); */
+    background-color:rgba(10, 23, 45, 0.824);
+    width:400px;
+    height:auto;
+    border-radius: 20px;
+    box-shadow: 2px 3px 20px black;
+    padding: 15px;
+  }
+  
+  .login-box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    flex-direction: column;
+    background-color:rgba(10, 23, 45, 0.824);
+    width:400px;
+    height:auto;
+    border-radius: 20px;
+    box-shadow: 2px 3px 20px black;
+    padding: 15px;
+  }
+  
+  
+  
+  
+  .signup-box a,.login-box a{
+    color: rgb(255, 255, 0);
+    cursor: pointer;
+  }
+  
+  .signup-box h5,.login-box h5{
+    margin: 15px;
+  }
+  
+  
+  .signup-box input,.login-box input{
+    background-color: rgb(3, 1, 14);
+    color: rgb(203, 240, 17);
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid aliceblue;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 15px;
+    text-shadow: 2px 3px 20px rgb(89, 255, 0);
+    box-shadow: 2px 3px 20px rgb(21, 4, 52);
+  }
+  
+  
+  
+  .signup-box input::placeholder,.login-box input::placeholder{
+    color:rgb(0, 255, 234);
+    text-shadow: 0px 1px 5px rgb(0, 0, 0) ;
+  }
+  
+  
+  ::-ms-reveal {
+    background-color: #65faff; 
+    border-radius: 40%;
+    box-shadow: 2px 3px 20px #65faff;
+   
+  }
+  
+  
+  
+  .signup-box h3,.login-box h3{
+    color: lawngreen;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin: 10px;
+    text-shadow: 2px 3px 20px rgb(38, 255, 0);
+  }
+  
+  .signup-box button,.login-box button{
+    background-color: aqua;
+    color: rgb(18, 25, 32);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 2px 3px 20px aqua;
+    cursor: pointer;
+  
+  }
+  
+  
+  
+  .signup-box button:hover,.login-box button:hover{
+    background-color: rgb(148, 255, 255);}
+  
+  .signup-box button:active,.login-box button:active{
+    background-color: rgb(148, 255, 255);
+  }
+
+
+  @media (max-width:850px) {
+    .signup{
+        position: absolute;
+        top: 60px;
+        height: 100%;
+      }
+        .signup-box{
+         
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          text-align: center;
+          flex-direction: column;
+          background-color:rgba(10, 23, 45, 0.635);
+          width:250px;
+          height:auto;
+          border-radius: 10px;
+          box-shadow: 2px 3px 20px black;
+        }
+        .login-box{
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          text-align: center;
+          flex-direction: column;
+          background-color:rgba(10, 23, 45, 0.445);
+          width:250px;
+          margin: auto;
+          height:auto;
+          border-radius: 20px;
+          box-shadow: 2px 3px 20px black;
+        }
+      
+      
+        .signup-box input,.login-box input{
+          padding: 4px;
+          font-size: medium;
+          border-radius: 5px;
+          font-weight: 200;
+          background-color:rgba(46, 43, 49, 0.425);
+          
+        }
+        .signup-box button,.login-box button {
+          padding: 8px;
+        }
+    
+  }
+  
+  
+  /* ==============Sign-up-end================== */
